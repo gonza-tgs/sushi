@@ -74,7 +74,7 @@ elif menu == "Calculadora":
         st.info("Cada pieza de sushi contiene aproximadamente 50 calorias.**")
 
         st.markdown("### Recomendaciones:")
-    if piezas_posibles > 15:
+    if piezas_posibles < 15:
         st.warning("Estás comiendo bastante sushi ¡Considera acompañar con ensalada o té verde!")
     elif piezas_posibles < 5:
         st.info("Podrías disfrutar algunas piezas más sin preocuparte demasiado ")
@@ -98,6 +98,7 @@ elif menu == "Contacto":
     # Imagen y video adicional
     st.image("sushi imagen 2.jpg")
     st.video("https://www.youtube.com/watch?v=NTFjleENYEo")    
+
 
 
 
